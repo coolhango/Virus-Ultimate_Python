@@ -14,7 +14,7 @@ Here’s what’s inside the repo:
 Each of the following `.ipynb` notebooks has a different kind of harmless "virus" prank:
 
 1. **`run this code if you are not gay it's just a game chill 1.ipynb`**  
-   - This script is engineered to flood your default web browser with an extremely high-frequency bursts of URLs. Specifically, it attempts to open website links at an insanely rapid interval of about 0.000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001 seconds between each tab. That's so fast it practically means "open all at once."
+   - This script is engineered to flood your default web browser with an extremely high-frequency bursts of URLs. Specifically, it attempts to open website links at an insanely rapid interval of about 0.000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001 seconds between each tab. That's so fast it practically means "open all at once".
 
    - Once executed, you will likely experience an instant and overwhelming flood of browser windows/tabs opening non-stop. Depending on your system's specs, browser settings, and internet connection, this may cause your browser to freeze, your RAM usage to spike, or your system to become momentarily unresponsive.
    - ⏲️ To CONTROL the SPEED at which each link opens, look for the line that contains time.sleep(...). The number inside sleep() determines the delay in seconds. For example: time.sleep(1) → opens a new link every 1 second (slow & safe) OR time.sleep(0.1) → opens a new link every 100ms (moderate speed) OR time.sleep(0.0001) → opens links nearly instantly (chaotic)
