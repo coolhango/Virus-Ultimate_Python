@@ -14,8 +14,11 @@ Here’s what’s inside the repo:
 Each of the following `.ipynb` notebooks has a different kind of harmless "virus" prank:
 
 1. **`run this code if you are not gay it's just a game chill 1.ipynb`**  
-   - Spams infinite pop-up windows using `tkinter`.  
-   - Goal: Overwhelm the screen with windows.
+   - This script is engineered to flood your default web browser with an extremely high-frequency bursts of URLs. Specifically, it attempts to open website links at an insanely rapid interval of about 0.000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001 seconds between each tab. That's so fast it practically means "open all at once."
+
+   - Once executed, you will likely experience an instant and overwhelming flood of browser windows/tabs opening non-stop. Depending on your system's specs, browser settings, and internet connection, this may cause your browser to freeze, your RAM usage to spike, or your system to become momentarily unresponsive.
+   - ⏲️ To CONTROL the SPEED at which each link opens, look for the line that contains time.sleep(...). The number inside sleep() determines the delay in seconds. For example: time.sleep(1) → opens a new link every 1 second (slow & safe) OR time.sleep(0.1) → opens a new link every 100ms (moderate speed) OR time.sleep(0.0001) → opens links nearly instantly (chaotic)
+   - 🌐 To CHANGE THE WEBSITES being opened: Locate the lines where webbrowser.open() is called. You’ll see URLs in quotation marks like: webbrowser.open("https://example.com"). Replace these with any URLs of your choice. Make it fun by inserting meme links, Rickrolls, or fake search results. For example: webbrowser.open("https://www.youtube.com/watch?v=dQw4w9WgXcQ")
 
 2. **`run this code if you are not gay it's just a game chill 2.ipynb`**  
    - Opens random websites endlessly in the browser.  
