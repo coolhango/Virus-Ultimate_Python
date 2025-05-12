@@ -1,6 +1,6 @@
-# 🦠 Virus-Ultimate_Python
+# 🦠 InfiltratorX.py
 
-Welcome to **Virus-Ultimate_Python** — a collection of Python-based prank scripts meant for **educational and entertainment** purposes only. These notebooks are designed to surprise, confuse, and amuse — while helping you learn about Python’s interaction with systems.
+Welcome to **InfiltratorX.py** — a comprehensive collection of Python-based prank scripts crafted for **educational and entertainment purposes**. This repository offers a range of tools designed to simulate system disruptions, automate user interactions, and generate unpredictable behaviors, providing insight into system manipulation and automation techniques. While these scripts are intended for responsible learning and testing in controlled environments, they also offer a deeper understanding of how vulnerabilities can be exploited in real-world scenarios.
 
 > ⚠️ **DISCLAIMER:** This repository is for **educational use only**. Do not run these notebooks on any system you do not own or without full permission. Always test in a sandboxed or virtual environment. The code is meant for learning, not for harm.
 
@@ -21,24 +21,24 @@ Each of the following `.ipynb` notebooks has a different kind of harmless "virus
    - 🌐 To CHANGE THE WEBSITES being opened: Locate the lines where webbrowser.open() is called. You’ll see URLs in quotation marks like: webbrowser.open("https://example.com"). Replace these with any URLs of your choice. Make it fun by inserting meme links, Rickrolls, or fake search results. For example: webbrowser.open("https://www.youtube.com/watch?v=dQw4w9WgXcQ")
 
 
-2. **`run this code if you are not gay it's just a game chill 2.ipynb`**  
-   
+2. **`run this code if you are not gay it's just a game chill 2.ipynb`**
+   - Nil
 
-3. **`run this code if you are not gay it's just a game chill 3.ipynb`**  
+4. **`run this code if you are not gay it's just a game chill 3.ipynb`**  
     - This code creates blank folders. You can control how many folders it creates, or make the code run forever. All the blank folders will eat up a lot of memory and CPU, thus making the device lag.
    - To stop or delete all folders, do the following: (For Macbook) Go Settings, then General, then Transfer and Reset. This will reset your Mac and delete all data. The above method is for desperate situations, when the choice of deleting the folders are virtually impossible due to the lag. Another method is to run the Counter Code. This will not touch or delete any other data or information on your Mac, and is the safest way to delete all files.
 If you do not have the Counter Code, you can consider deleting all the files manually by dragging them to Trash.
 
-4. **`run this code if you are not gay it's just a game chill 4.ipynb`**  
+5. **`run this code if you are not gay it's just a game chill 4.ipynb`**  
    - Rickroll. That's literally it.
 
-5. **`run this code if you are not gay it's just a game chill 5.ipynb`**  
+6. **`run this code if you are not gay it's just a game chill 5.ipynb`**  
    - This Python script is designed to generate a zip bomb 💣. A zip bomb is a malicious 😈 compressed file that, when decompressed, expands into an enormous file that consumes a vast amount of system resources, leading to performance issues or even crashing the system.
    - The code creates a dummy text file, compresses it multiple times into a zip file, and iterates the process recursively to exponentially increase the size of the resulting compressed file. This can cause systems to become unresponsive when the zip bomb is decompressed, as it can expand to several terabytes or more, depending on the number of iterations and the initial file size.
    - How it works: The script creates a small dummy text file (dummy.txt that contains a large amount of data. The dummy file is compressed into a zip file using the zipfile module. For each level, the script generates multiple copies of the zip file and compresses them again. The number of copies is set to 10, and each iteration increases the file size exponentially. After the specified number of iterations (n_levels), the final zip file is created. The script renames it and outputs the file, which can be several gigabytes in size, despite the initial small file size.
 
 
-6. **`run this code if you are not gay it's just a game chill 6.ipynb`**  
+7. **`run this code if you are not gay it's just a game chill 6.ipynb`**  
    - Updated with a newer, more advanced system version. View the SpamuraiX.py repository for more details.
    
 8. **`run this code if you are not gay it's just a game chill 7.ipynb`**  
@@ -103,23 +103,28 @@ If you do not have the Counter Code, you can consider deleting all the files man
     - Confirmation: After deleting each .txt file, the script prints a message like "File deleted: [file_path]" to confirm the deletion.
 
 ---
-
 ### 🔬 Other Files
-
-- **`Counter Code.ipynb`**  
-  A countdown or count-up script for testing loops and UI elements. Useful for delaying or setting up effects.
-
 - **`Test Beta Lab.ipynb`**  
   Experimental notebook used for testing new prank ideas and proof-of-concepts.
 
-- **`run this code if you are not gay it's just a game chill 10.workflow.zip`**  
-  A macOS Automator workflow version of Notebook 10, allowing integration into system-level automation.
-
+### 🚀 Getting Started
+- ## Requirements:
+   - Install required Python modules: ```bash, pip install pyautogui tkinter playsound opencv-python pillow
 ---
+__________________________________
+![image](https://github.com/user-attachments/assets/dc982fab-30bb-4b4b-853b-19e30bb652fe)
 
-## 🚀 Getting Started
+Disclaimer:
+This script is intended solely for educational purposes and must be used responsibly. It is strictly prohibited to use the script for pranks, harassment, or to send unsolicited emails to individuals or organizations without their consent. Any misuse of this script may result in legal consequences and violations of the terms of service of email providers, such as Gmail. Engaging in spamming or any other non-consensual activities can lead to account suspensions, blacklisting, or more severe legal actions. It is imperative to ensure that all activities conducted with this script adhere to ethical standards and comply with applicable laws and regulations. This repository and its contents are provided to demonstrate the principles of email flooding and payload delivery systems within controlled, ethical testing environments. The use of this script on live targets or for malicious purposes is strictly prohibited. Users assume full responsibility for any consequences resulting from the use of this script. This repository is not affiliated in any way with the School Of Science and Technology, Singapore, and the author should not be held responsible. 
 
-### Requirements
-Install required Python modules:
-```bash
-pip install pyautogui tkinter playsound opencv-python pillow
+__________________________________
+Built for simulating intense system disruptions, automating user interactions, and creating unpredictable behaviors for testing and experimentation in high-risk environments.
+
+Author: Gedeon Koh
+Copyright © 2025
+All rights reserved.
+
+Contributions ✨: We welcome contributions to improve the functionality and usability of this script. If you have identified bugs, security improvements, or new features, feel free to fork the repository and submit a pull request. Please ensure that all contributions follow ethical guidelines and are in line with the educational nature of the project. If you're unsure about any changes, please open an issue to discuss it first. Contributions should adhere to coding standards and include appropriate documentation for any new features or changes.
+
+Other Information: No part of this publication may be reproduced, distributed, or transmitted in any form or by any means, including photocopying, recording, or other electronic or mechanical methods, without the prior written permission of the publisher, except in the case of brief quotations embodied in reviews and certain other non-commercial uses permitted by copyright law. THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHOR OR COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE Any unauthorized use or dissemination of the results produced by this program is unethical and may result in legal consequences. Any damage, disciplinary actions or death from this material is not in fault in the publisher's or owner.
+
